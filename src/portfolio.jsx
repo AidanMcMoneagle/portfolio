@@ -121,7 +121,7 @@ const skills = [
   "HTML",
   "EJS",
   "CSS",
-  "Bootsrap",
+  "Bootstrap",
   "Heroku",
   "Firebase",
 ];
