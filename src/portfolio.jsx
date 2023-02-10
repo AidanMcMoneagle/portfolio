@@ -10,11 +10,10 @@ const about = {
   role: "Full Stack Engineer",
   description: [
     "I am a First-Class Engineering Masters Graduate from the University of Nottingham looking for my first role as a Software Engineer. After graduating in 2020, I spent 2 years as a Civil Engineer on a major UK infrastructure project. During this time, I worked across multiple teams, dealt with complex problems and worked collaboratively with others to create solutions.",
-    "I decided to leave civil engineering aspiring to work in an industry which was fast paced, dynamic and innovative. In February 2022 whilst working full time I spent evenings and weekends learning how to code and since then have built my skillset from the ground up and am now confident in developing full-stack applications.",
+    "I decided to leave civil engineering, aspiring to work in an industry which was fast paced, dynamic and innovative. In February 2022 whilst working full time I spent evenings and weekends learning how to code. Since then have built my skillset from the ground up and am now confident in developing full-stack applications.",
     "I am passionate about building tech-enabled solutions to solve business problems and I hope the selection of projects below illustrate my technical ability.",
   ],
 
-  // resume: 'https://example.com',
   social: {
     linkedin: "https://www.linkedin.com/in/aidan-mcmoneagle/",
     github: "https://github.com/AidanMcMoneagle",
@@ -28,7 +27,7 @@ const projects = [
     name: "My Weights Tracker",
     description: [
       "Full-stack, fully responsive single-page application allowing users to create, view and track progress of gym workouts.",
-      "Implements JWT user authentication and uses the recharts library to create graphs to visualise workout progress.",
+      "Implements JWT user authentication and uses the recharts library to produce graphs visualising workout progress.",
     ],
 
     stack: ["JavaScript", "React", "Node", "Express", "MongoDB"],
@@ -55,9 +54,9 @@ const projects = [
   {
     name: "Places",
     description: [
-      "Full-stack application allowing users to upload details of places they have been in the world.",
+      "Full-stack application allowing users to upload details of their favourite destinations.",
       "Utilises the Google Geocoding API and cloud image upload/storage.",
-      "Client side routing with React Router",
+      "Client side routing with React Router.",
     ],
     stack: ["JavaScript", "React", "Node", "Express", "MongoDB"],
     image:
@@ -68,9 +67,9 @@ const projects = [
   {
     name: "YelpCamp",
     description: [
-      "Full-stack, multi-page application allowing users to create and review campgrounds",
-      "Implemented user authenitcation using Passport.js",
-      "Utilised MAPBOX API to render interactive dot map",
+      "Full-stack, multi-page application allowing users to create and review campgrounds.",
+      "Implemented user authenitcation using Passport.js.",
+      "Utilised MAPBOX API to render an interactive dot map.",
     ],
     stack: ["JavaScript", "EJS", "Bootstrap", "Node", "Express", "MongoDB"],
     image:
@@ -127,7 +126,6 @@ const skills = [
 ];
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
   email: "aidan.mcmoneagle@gmail.com",
 };
 
