@@ -10,7 +10,7 @@ const about = {
   role: "Full Stack Engineer",
   description: [
     "I am a First-Class Engineering Masters Graduate from the University of Nottingham looking for my first role as a Software Engineer. After graduating in 2020, I spent 2 years as a Civil Engineer on a major UK infrastructure project. During this time, I worked across multiple teams, dealt with complex problems and worked collaboratively with others to create solutions.",
-    "I decided to leave civil engineering, aspiring to work in an industry which was fast paced, dynamic and innovative. In February 2022 whilst working full time I spent evenings and weekends learning how to code. Since then have built my skillset from the ground up and am now confident in developing full-stack applications.",
+    "I decided to leave civil engineering, aspiring to work in an industry which was fast paced, dynamic and innovative. In February 2022 whilst working full time I spent evenings and weekends learning how to code. Since then I have built my skillset from the ground up and am now confident in developing full-stack applications.",
     "I am passionate about building tech-enabled solutions to solve business problems and I hope the selection of projects below illustrate my technical ability.",
   ],
 
