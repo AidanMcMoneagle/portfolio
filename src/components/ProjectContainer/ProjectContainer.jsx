@@ -1,26 +1,31 @@
-import uniqid from 'uniqid'
-import GitHubIcon from '@material-ui/icons/GitHub'
-import LaunchIcon from '@material-ui/icons/Launch'
-import './ProjectContainer.css'
+import uniqid from "uniqid";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import LaunchIcon from "@material-ui/icons/Launch";
+import StarIcon from "@mui/icons-material/Star";
+
+import "./ProjectContainer.css";
 
 const ProjectContainer = ({ project }) => (
-  <div className='project'>
-    <h3>{project.name}</h3>
+  <div className="project">
+    <h3>
+      {project.name}
+      {project.name === "My Weights Tracker" && <StarIcon />}
+    </h3>
 
-    <img src={project.image} alt='' className='project__image' />
+    <img src={project.image} alt="" className="project__image" />
 
-    <ul className='project__description'>
+    <ul className="project__description">
       {project.description.map((el) => (
-        <li key={uniqid()} className='project__description__item'>
+        <li key={uniqid()} className="project__description__item">
           {el}
         </li>
       ))}
     </ul>
 
     {project.stack && (
-      <ul className='project__stack'>
+      <ul className="project__stack">
         {project.stack.map((item) => (
-          <li key={uniqid()} className='project__stack-item'>
+          <li key={uniqid()} className="project__stack-item">
             {item}
           </li>
         ))}
@@ -30,8 +35,8 @@ const ProjectContainer = ({ project }) => (
     {project.sourceCode && (
       <a
         href={project.sourceCode}
-        aria-label='source code'
-        className='link link--icon'
+        aria-label="source code"
+        className="link link--icon"
       >
         <GitHubIcon />
       </a>
@@ -40,13 +45,13 @@ const ProjectContainer = ({ project }) => (
     {project.livePreview && (
       <a
         href={project.livePreview}
-        aria-label='live preview'
-        className='link link--icon'
+        aria-label="live preview"
+        className="link link--icon"
       >
         <LaunchIcon />
       </a>
     )}
   </div>
-)
+);
 
-export default ProjectContainer
+export default ProjectContainer;

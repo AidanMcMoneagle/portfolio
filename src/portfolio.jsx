@@ -27,7 +27,9 @@ const projects = [
     name: "My Weights Tracker",
     description: [
       "Full-stack, fully responsive single-page application allowing users to create, view and track progress of gym workouts.",
-      "Implements JWT user authentication and uses the recharts library to produce graphs visualising workout progress.",
+      "Implements JWT user authentication and secure password reset via email with nodemailer.",
+      "Uses recharts library to produce graphs visualising workout progress.",
+      "Client side routing using React Router.",
     ],
 
     stack: ["JavaScript", "React", "Node", "Express", "MongoDB"],
@@ -55,7 +57,7 @@ const projects = [
     name: "Places",
     description: [
       "Full-stack application allowing users to upload details of their favourite destinations.",
-      "Utilises the Google Geocoding API and cloud image upload/storage.",
+      "Utilises the Google Geocoding API and Cloudinary API for cloud image upload/storage.",
       "Client side routing with React Router.",
     ],
     stack: ["JavaScript", "React", "Node", "Express", "MongoDB"],
@@ -68,8 +70,8 @@ const projects = [
     name: "YelpCamp",
     description: [
       "Full-stack, multi-page application allowing users to create and review campgrounds.",
-      "Implemented user authenitcation using Passport.js.",
-      "Utilised MAPBOX API to render an interactive dot map.",
+      "Implements user authenitcation using Passport.js.",
+      "Utilises MAPBOX API to render an interactive dot map.",
     ],
     stack: ["JavaScript", "EJS", "Bootstrap", "Node", "Express", "MongoDB"],
     image:
@@ -94,7 +96,7 @@ const projects = [
     name: "Mapty",
     description: [
       "Front-end application allowing users to pinpoint workout locations on a map and enter metrics.",
-      "Used browser local storage to store user input.",
+      "Uses browser local storage to store user input.",
       "Built using Vanilla JS and developed using OOP principles.",
     ],
     stack: ["JavaScript"],
