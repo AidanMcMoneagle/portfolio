@@ -10,8 +10,9 @@ const about = {
   role: "Full Stack Engineer",
   description: [
     "I am a First-Class Engineering Masters Graduate from the University of Nottingham looking for my first role as a Software Engineer. After graduating in 2020, I spent 2 years as a Civil Engineer on a major UK infrastructure project. During this time, I worked across multiple teams, dealt with complex problems and worked collaboratively with others to create solutions.",
-    "I decided to leave civil engineering, aspiring to work in an industry which was fast paced, dynamic and innovative. In February 2022 whilst working full time I spent evenings and weekends learning how to code. Since then I have built my skillset from the ground up and am now confident in developing full-stack applications.",
-    "I am passionate about building tech-enabled solutions to solve business problems and I hope the selection of projects below illustrate my technical ability.",
+    "Despite this, I realised that civil engineering was not the right long-term career and in February 2022, whilst continuing to work full-time, I focused on building on the fundamental programming skills that I had learnt during my degree. Since then, I have expanded my technical knowledge and I am now confident in delivering full-stack applications.",
+    "My career change into software engineering is driven by my interest and passion for technology and my desire to work in an industry that is fast paced, innovative and where engineers work closely with the product.",
+    "I believe the route I have taken into tech shows that I am a highly motivated individual who is not afraid of taking on new challenges and can bring resilience, mental agility and an enthusiasm to learn to a new role. I am passionate about building tech-enabled solutions to solve business problems and I hope the selection of projects below illustrate my technical ability.",
   ],
 
   social: {
@@ -113,6 +114,7 @@ const skills = [
   "JavaScript",
   "TypeScript",
   "React",
+  "Redux",
   "Node",
   "Express",
   "MongoDB",
@@ -125,6 +127,10 @@ const skills = [
   "Bootstrap",
   "Heroku",
   "Firebase",
+  "REST API's",
+  "Postman",
+  "Jest",
+  "React Testing Library",
 ];
 
 const contact = {
