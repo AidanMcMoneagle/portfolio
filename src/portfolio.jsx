@@ -27,13 +27,16 @@ const projects = [
   {
     name: "My Weights Tracker",
     description: [
-      "Full-stack, fully responsive single-page application allowing users to create, view and track progress of gym workouts.",
-      "Implements JWT user authentication and secure password reset via email with nodemailer.",
-      "Uses recharts library to produce graphs visualising workout progress.",
-      "Client side routing using React Router.",
+      "Full-stack, fully responsive SPA allowing users to create, view and track progress of gym workouts.",
+      "Developed a RESTful API using Node.js, Express.js and MongoDB.",
+      "Built front-end using React and implemented client-side routing with React Router.",
+      "State Management using both React Hooks (useState, useReducer, useContext) and Redux.",
+      "Implemented JWT user authentication and secure password reset via email.",
+      "Created graphs using Recharts library to visualise workout progress.",
+      "Cloud image upload/storage to Cloudinary.",
     ],
 
-    stack: ["JavaScript", "React", "Node", "Express", "MongoDB"],
+    stack: ["JavaScript", "React", "Redux", "Node", "Express", "MongoDB"],
     image:
       "https://user-images.githubusercontent.com/99369057/214873732-718e3ce4-af4c-4232-8116-3d67c41531bb.png",
     sourceCode:
@@ -45,7 +48,7 @@ const projects = [
     name: "Cocktails DB",
     description: [
       "Front-end project allowing users to search for cocktail recipes.",
-      "Fetches cocktail data from an external API based on user input.",
+      "Fetched cocktail data from an external API based on user input.",
     ],
     stack: ["JavaScript", "React"],
     image:
@@ -58,7 +61,7 @@ const projects = [
     name: "Places",
     description: [
       "Full-stack application allowing users to upload details of their favourite destinations.",
-      "Utilises the Google Geocoding API and Cloudinary API for cloud image upload/storage.",
+      "Utilised the Google Geocoding API and Cloudinary API for cloud image upload/storage.",
       "Client side routing with React Router.",
     ],
     stack: ["JavaScript", "React", "Node", "Express", "MongoDB"],
@@ -71,8 +74,8 @@ const projects = [
     name: "YelpCamp",
     description: [
       "Full-stack, multi-page application allowing users to create and review campgrounds.",
-      "Implements user authenitcation using Passport.js.",
-      "Utilises MAPBOX API to render an interactive dot map.",
+      "Implemented user authenitcation using Passport.js.",
+      "Utilised the MAPBOX API to render an interactive dot map.",
     ],
     stack: ["JavaScript", "EJS", "Bootstrap", "Node", "Express", "MongoDB"],
     image:
@@ -97,7 +100,7 @@ const projects = [
     name: "Mapty",
     description: [
       "Front-end application allowing users to pinpoint workout locations on a map and enter metrics.",
-      "Uses browser local storage to store user input.",
+      "Utilised browser local storage to store user input.",
       "Built using Vanilla JS and developed using OOP principles.",
     ],
     stack: ["JavaScript"],
